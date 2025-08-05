@@ -431,25 +431,25 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
       { name: "Spelt Wheat (Kind 30)", price: 100, discount: 15, image: "https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/10/spelt-grain-in-bowl-1296x728-header.jpg?w=1155&h=1528", description: "Ancient spelt wheat for bread." },
 
        { name: "Quinoa", price: 120, discount: 10, image: "https://www.netmeds.com/images/cms/magefan_blog/quinoa_898.jpg", description: "Protein-rich quinoa for salads." },
-    { name: "Farro", price: 100, discount: 15, image: "https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg", description: "Chewy farro for hearty dishes." },
-    { name: "Amaranth", price: 110, discount: 5, image: "https://images.pexels.com/photos/4110252/pexels-photo-4110252.jpeg", description: "Nutty amaranth for porridge." },
-    { name: "Teff", price: 130, discount: 20, image: "https://images.pexels.com/photos/4110253/pexels-photo-4110253.jpeg", description: "Tiny teff for injera bread." },
-    { name: "Freekeh", price: 115, discount: 10, image: "https://images.pexels.com/photos/4110254/pexels-photo-4110254.jpeg", description: "Smoky freekeh for pilafs." },
-    { name: "Kaniwa", price: 125, discount: 15, image: "https://images.pexels.com/photos/4110255/pexels-photo-4110255.jpeg", description: "Mild kaniwa for soups." },
-    { name: "Wild Rice", price: 140, discount: 10, image: "https://images.pexels.com/photos/4110256/pexels-photo-4110256.jpeg", description: "Nutty wild rice for side dishes." },
-    { name: "Kamut", price: 135, discount: 5, image: "https://images.pexels.com/photos/4110257/pexels-photo-4110257.jpeg", description: "Ancient kamut for pasta." },
-    { name: "Einkorn", price: 145, discount: 15, image: "https://images.pexels.com/photos/4110258/pexels-photo-4110258.jpeg", description: "Sweet einkorn for baking." },
-    { name: "Fonio", price: 150, discount: 20, image: "https://images.pexels.com/photos/4110259/pexels-photo-4110259.jpeg", description: "Light fonio for couscous." },
-    { name: "Durum Wheat", price: 105, discount: 10, image: "https://images.pexels.com/photos/4110260/pexels-photo-4110260.jpeg", description: "Hard durum for semolina." },
-    { name: "Red Rice", price: 110, discount: 15, image: "https://images.pexels.com/photos/4110261/pexels-photo-4110261.jpeg", description: "Nutty red rice for bowls." },
-    { name: "Black Rice", price: 120, discount: 5, image: "https://images.pexels.com/photos/4110262/pexels-photo-4110262.jpeg", description: "Antioxidant-rich black rice." },
-    { name: "Job’s Tears", price: 130, discount: 10, image: "https://images.pexels.com/photos/4110263/pexels-photo-4110263.jpeg", description: "Chewy grain for soups." },
-    { name: "Emmer", price: 140, discount: 15, image: "https://images.pexels.com/photos/4110264/pexels-photo-4110264.jpeg", description: "Ancient emmer for salads." },
-    { name: "Triticale Flakes", price: 115, discount: 20, image: "https://images.pexels.com/photos/4110265/pexels-photo-4110265.jpeg", description: "Flaked triticale for cereal." },
-    { name: "Pearl Millet", price: 100, discount: 10, image: "https://images.pexels.com/photos/4110266/pexels-photo-4110266.jpeg", description: "Mild pearl millet for flatbreads." },
-    { name: "Brown Rice", price: 95, discount: 5, image: "https://images.pexels.com/photos/4110267/pexels-photo-4110267.jpeg", description: "Whole grain brown rice." },
-    { name: "Jasmine Rice", price: 110, discount: 15, image: "https://images.pexels.com/photos/4110268/pexels-photo-4110268.jpeg", description: "Fragrant jasmine rice for curries." },
-    { name: "Basmati Rice", price: 120, discount: 10, image: "https://images.pexels.com/photos/4110269/pexels-photo-4110269.jpeg", description: "Long-grain basmati for biryani." },
+    { name: "Farro", price: 100, discount: 15, image: "https://ninnescahmade.com/wp-content/uploads/2023/05/Ninnescah-Homestead-how-to-freeze-farro-cover-1.jpg", description: "Chewy farro for hearty dishes." },
+    { name: "Amaranth", price: 110, discount: 5, image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTRWAm23t7QEawWxKryrgxp-mT8XivElptPZbPBHsbsrA4wzoJy9YeM25VOdaKN69cUaLc0N4gRhIEzMd8evyQ_KXku0JncLZESzeL4LA", description: "Nutty amaranth for porridge." },
+    { name: "Teff", price: 130, discount: 20, image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQvVrURe5R1KZyb5lXyeX7xmmGQI15gkwGzCdXDyjoSlHEaSuXTkovlBn00Z-GAlvW1dbfkR50b7DyAMEmd0MaJ_Km_zM1Mgg_GjhGfbrg", description: "Tiny teff for injera bread." },
+    { name: "Freekeh", price: 115, discount: 10, image: "https://hips.hearstapps.com/hmg-prod/images/freekeh-royalty-free-image-538304251-1542313611.jpg?crop=0.670xw:1.00xh;0.144xw,0&resize=640:*", description: "Smoky freekeh for pilafs." },
+    { name: "Kaniwa", price: 125, discount: 15, image: "https://theveganatlas.com/wp-content/uploads/2022/01/Kaniwa-grain.jpg", description: "Mild kaniwa for soups." },
+    { name: "Wild Rice", price: 140, discount: 10, image: "https://cdn.britannica.com/25/198325-050-07B00975/wild-rice-food.jpg", description: "Nutty wild rice for side dishes." },
+    { name: "Kamut", price: 135, discount: 5, image: "https://nutrimill.com/cdn/shop/articles/The_Benefits_of_Kamut_Grain_and_Flour.png?crop=center&height=1200&v=1687290641&width=1200", description: "Ancient kamut for pasta." },
+    { name: "Einkorn", price: 145, discount: 15, image: "https://bluebirdgrainfarms.com/wp-content/uploads/2024/02/Einkorn_Raw-scaled.jpg", description: "Sweet einkorn for baking." },
+    { name: "Fonio", price: 150, discount: 20, image: "https://media.post.rvohealth.io/wp-content/uploads/2021/02/fonio-732x549-thumbnail.jpg", description: "Light fonio for couscous." },
+    { name: "Durum Wheat", price: 105, discount: 10, image: "https://www.diet-health.info/images/recipes/700/weizenkoerner-wheat-grains-by-stockpics-fotolia-78750746.jpg", description: "Hard durum for semolina." },
+    { name: "Red Rice", price: 110, discount: 15, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1q5wtCFh9veM7MGpG7IA2O-Ek1gVYajP96j9MzaepA2xrmNzp8zscEKc&s", description: "Nutty red rice for bowls." },
+    { name: "Black Rice", price: 120, discount: 5, image: "https://www.health.com/thmb/5k34xWN3XjUQl8F2Um_gulpRKcU=/2119x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1475232928-782306100d2a49779e25e22837d9f105.jpg", description: "Antioxidant-rich black rice." },
+    { name: "Job’s Tears", price: 130, discount: 10, image: "https://assets.bonappetit.com/photos/57bf31534395c0582bb63142/master/pass/jobs-tears-spoon.jpg", description: "Chewy grain for soups." },
+    { name: "Emmer", price: 140, discount: 15, image: "https://healthybuddha.in/image/cache/catalog/Screenshot_20211227-235317-500x515.jpg", description: "Ancient emmer for salads." },
+    { name: "Triticale Flakes", price: 115, discount: 20, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQisDjpN1XR8l9gngZbCyIsqFBcWTPSQTIz2g&s", description: "Flaked triticale for cereal." },
+    { name: "Pearl Millet", price: 100, discount: 10, image: "https://milletamma.com/cdn/shop/products/77_2cd0fde0-b2fe-434a-9a5c-172d43bba8c9_1200x1200.jpg?v=1717386773", description: "Mild pearl millet for flatbreads." },
+    { name: "Brown Rice", price: 95, discount: 5, image: "https://domf5oio6qrcr.cloudfront.net/medialibrary/6234/e36f5dc7-eb31-45f8-b2cf-c5e0483ef0ff.jpg", description: "Whole grain brown rice." },
+    { name: "Jasmine Rice", price: 110, discount: 15, image: "https://static.vecteezy.com/system/resources/previews/006/660/824/large_2x/jasmine-rice-popular-rice-variety-in-thailand-rice-grain-that-has-passed-through-the-polishing-process-ready-to-be-cooked-or-steamed-white-seeds-on-black-background-free-photo.jpg", description: "Fragrant jasmine rice for curries." },
+    { name: "Basmati Rice", price: 120, discount: 10, image: "https://5.imimg.com/data5/SELLER/Default/2024/8/444324431/DJ/CY/ZR/69509296/long-grain-basmati-rice.jpg", description: "Long-grain basmati for biryani." },
 
     ],
      oils: [
@@ -474,26 +474,26 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
       { name: "Pumpkin Seed Oil", price: 240, discount: 20, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPgBnuGBckloWz3RcRqosc34mpT73SDiRl3w&s", description: "Rich pumpkin seed oil for salads." },
       { name: "Macadamia Oil", price: 260, discount: 10, image: "https://static.toiimg.com/thumb/msid-94969001,width-400,resizemode-4/94969001.jpg", description: "Premium macadamia oil for gourmet dishes." },
 
-       { name: "Hemp Seed Oil", price: 280, discount: 10, image: "https://images.pexels.com/photos/11809348/pexels-photo-11809348.jpeg", description: "Nutty hemp oil for smoothies." },
-    { name: "Chia Seed Oil", price: 300, discount: 15, image: "https://images.pexels.com/photos/11809349/pexels-photo-11809349.jpeg", description: "Omega-rich chia oil for health." },
-    { name: "Black Seed Oil", price: 320, discount: 20, image: "https://images.pexels.com/photos/11809350/pexels-photo-11809350.jpeg", description: "Potent black seed oil for wellness." },
-    { name: "Camelina Oil", price: 290, discount: 10, image: "https://images.pexels.com/photos/11809351/pexels-photo-11809351.jpeg", description: "Mild camelina oil for cooking." },
-    { name: "Perilla Oil", price: 310, discount: 5, image: "https://images.pexels.com/photos/11809352/pexels-photo-11809352.jpeg", description: "Aromatic perilla oil for Asian dishes." },
-    { name: "Poppy Seed Oil", price: 270, discount: 15, image: "https://images.pexels.com/photos/11809353/pexels-photo-11809353.jpeg", description: "Delicate poppy seed oil for baking." },
-    { name: "Baobab Oil", price: 350, discount: 20, image: "https://images.pexels.com/photos/11809354/pexels-photo-11809354.jpeg", description: "Nutrient-rich baobab oil for salads." },
-    { name: "Marula Oil", price: 340, discount: 10, image: "https://images.pexels.com/photos/11809355/pexels-photo-11809355.jpeg", description: "Exotic marula oil for gourmet dishes." },
-    { name: "Sacha Inchi Oil", price: 330, discount: 15, image: "https://images.pexels.com/photos/11809356/pexels-photo-11809356.jpeg", description: "Protein-rich sacha inchi oil." },
-    { name: "Tamanu Oil", price: 360, discount: 10, image: "https://images.pexels.com/photos/11809357/pexels-photo-11809357.jpeg", description: "Healing tamanu oil for cooking." },
-    { name: "Argan Oil", price: 400, discount: 20, image: "https://images.pexels.com/photos/11809358/pexels-photo-11809358.jpeg", description: "Premium argan oil for drizzling." },
-    { name: "Rosehip Oil", price: 380, discount: 15, image: "https://images.pexels.com/photos/11809359/pexels-photo-11809359.jpeg", description: "Vitamin-rich rosehip oil for salads." },
-    { name: "Moringa Oil", price: 370, discount: 10, image: "https://images.pexels.com/photos/11809360/pexels-photo-11809360.jpeg", description: "Nutritious moringa oil for health." },
-    { name: "Kukui Nut Oil", price: 350, discount: 5, image: "https://images.pexels.com/photos/11809361/pexels-photo-11809361.jpeg", description: "Light kukui oil for cooking." },
-    { name: "Borage Oil", price: 390, discount: 15, image: "https://images.pexels.com/photos/11809362/pexels-photo-11809362.jpeg", description: "Omega-rich borage oil for wellness." },
-    { name: "Evening Primrose Oil", price: 400, discount: 20, image: "https://images.pexels.com/photos/11809363/pexels-photo-11809363.jpeg", description: "Health-boosting primrose oil." },
-    { name: "Pomegranate Seed Oil", price: 410, discount: 10, image: "https://images.pexels.com/photos/11809364/pexels-photo-11809364.jpeg", description: "Antioxidant-rich pomegranate oil." },
-    { name: "Sea Buckthorn Oil", price: 420, discount: 15, image: "https://images.pexels.com/photos/11809365/pexels-photo-11809365.jpeg", description: "Vibrant sea buckthorn oil for drizzling." },
-    { name: "Neem Oil", price: 300, discount: 5, image: "https://images.pexels.com/photos/11809366/pexels-photo-11809366.jpeg", description: "Pungent neem oil for specialty dishes." },
-    { name: "Castor Oil", price: 280, discount: 10, image: "https://images.pexels.com/photos/11809367/pexels-photo-11809367.jpeg", description: "Versatile castor oil for cooking." },
+       { name: "Hemp Seed Oil", price: 280, discount: 10, image: "https://baskinnature.in/wp-content/uploads/2024/08/Hemp-Oil00000.-2.webp", description: "Nutty hemp oil for smoothies." },
+    { name: "Chia Seed Oil", price: 300, discount: 15, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPaT2aC4hVDjIiZR917H-7DbitXeNirR1MgA&s", description: "Omega-rich chia oil for health." },
+    { name: "Black Seed Oil", price: 320, discount: 20, image: "https://5.imimg.com/data5/SELLER/Default/2023/7/329802803/FE/HR/XN/50259712/black-seed-oil-kalonji-oil-for-hair-growth-cold-pressed-100-pure-and-natural.jpg", description: "Potent black seed oil for wellness." },
+    { name: "Camelina Oil", price: 290, discount: 10, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLytxoyAgUvlT55hjMZTQV6JjtyEucv3l4AQ&s", description: "Mild camelina oil for cooking." },
+    { name: "Perilla Oil", price: 310, discount: 5, image: "https://cpimg.tistatic.com/08621375/b/4/Perilla-Oil-Premium.jpg", description: "Aromatic perilla oil for Asian dishes." },
+    { name: "Poppy Seed Oil", price: 270, discount: 15, image: "https://5.imimg.com/data5/SELLER/Default/2024/1/379030495/TI/FV/UL/13643995/poppy-seed-oil-500x500.jpg", description: "Delicate poppy seed oil for baking." },
+    { name: "Baobab Oil", price: 350, discount: 20, image: "https://5.imimg.com/data5/SELLER/Default/2023/7/329798150/DL/LE/TH/50259712/baobab-oil-natural-therapeutic-grade-cold-pressed.jpg", description: "Nutrient-rich baobab oil for salads." },
+    { name: "Marula Oil", price: 340, discount: 10, image: "https://5.imimg.com/data5/SELLER/Default/2024/11/465145843/HI/NW/AI/69384121/marula-oil-500x500.jpg", description: "Exotic marula oil for gourmet dishes." },
+    { name: "Sacha Inchi Oil", price: 330, discount: 15, image: "https://5.imimg.com/data5/YH/JS/RF/SELLER-510060/sacha-inchi-oil-500x500.jpg", description: "Protein-rich sacha inchi oil." },
+    { name: "Tamanu Oil", price: 360, discount: 10, image: "https://res.cloudinary.com/dk0z4ums3/image/upload/v1700122255/attached_image/7-manfaat-tamanu-oil-bagi-tubuh-2.jpg", description: "Healing tamanu oil for cooking." },
+    { name: "Argan Oil", price: 400, discount: 20, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThtQwWDsceGOrsu-IZ8YKmJ63ImxJdgTtWwQ&s", description: "Premium argan oil for drizzling." },
+    { name: "Rosehip Oil", price: 380, discount: 15, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJAO73WSv-Tapis39lTpdw2s1zslEJ2cOrw&s", description: "Vitamin-rich rosehip oil for salads." },
+    { name: "Moringa Oil", price: 370, discount: 10, image: "https://static.toiimg.com/thumb/msid-117456727,width-1070,height-580,imgsize-10154,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg", description: "Nutritious moringa oil for health." },
+    { name: "Kukui Nut Oil", price: 350, discount: 5, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGW0-AQBiOgVu-m70Z9sj5F16c7TxGAOGDlg&s", description: "Light kukui oil for cooking." },
+    { name: "Borage Oil", price: 390, discount: 15, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaBceUpBy9CV7-yWxcSrUkQ5JWmNBoq2RNRQ&s", description: "Omega-rich borage oil for wellness." },
+    { name: "Evening Primrose Oil", price: 400, discount: 20, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIxw6BmeOdZuWk0G9qOXoBSbppzCU2QE4RHw&s", description: "Health-boosting primrose oil." },
+    { name: "Pomegranate Seed Oil", price: 410, discount: 10, image: "https://5.imimg.com/data5/SELLER/Default/2023/2/PE/JQ/AU/160674125/pomegrenate-seed-oil-500x500.jpg", description: "Antioxidant-rich pomegranate oil." },
+    { name: "Sea Buckthorn Oil", price: 420, discount: 15, image: "https://brisbanecosmeticclinic.com.au/wp-content/uploads/2023/03/Seabuckthorn.png", description: "Vibrant sea buckthorn oil for drizzling." },
+    { name: "Neem Oil", price: 300, discount: 5, image: "https://www.marthastewart.com/thmb/_HY4Q4ecxvEQA77Z1b5aspysP7M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ms-neem-oil-f4b8278443e84e26b8ee47c4a1e1103d.jpg", description: "Pungent neem oil for specialty dishes." },
+    { name: "Castor Oil", price: 280, discount: 10, image: "https://m.media-amazon.com/images/I/71TMFhJOmwL._UF350,350_QL80_.jpg", description: "Versatile castor oil for cooking." },
 
     ],
     dryfruits: [
@@ -517,26 +517,26 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
       { name: "Chia Seeds", price: 180, discount: 20, image: "https://m.media-amazon.com/images/I/51Z9BNZOgNL._UF1000,1000_QL80_.jpg", description: "Healthy chia seeds for smoothies." },
       { name: "Flax Seeds", price: 130, discount: 10, image: "https://i0.wp.com/post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/03/GettyImages-1039600298_hero-1024x575.jpg?w=1155&h=1528", description: "Omega-rich flax seeds for health." },
 
-      { name: "Dried Mango", price: 250, discount: 10, image: "https://images.pexels.com/photos/128422/pexels-photo-128422.jpeg", description: "Chewy dried mango slices." },
-    { name: "Dried Pineapple", price: 220, discount: 15, image: "https://images.pexels.com/photos/128423/pexels-photo-128423.jpeg", description: "Sweet dried pineapple rings." },
-    { name: "Dried Papaya", price: 230, discount: 5, image: "https://images.pexels.com/photos/128424/pexels-photo-128424.jpeg", description: "Tropical dried papaya chunks." },
-    { name: "Dried Kiwi", price: 260, discount: 20, image: "https://images.pexels.com/photos/128425/pexels-photo-128425.jpeg", description: "Tart dried kiwi slices." },
-    { name: "Dried Cherries", price: 280, discount: 10, image: "https://images.pexels.com/photos/128426/pexels-photo-128426.jpeg", description: "Sweet dried cherries for baking." },
-    { name: "Dried Blueberries", price: 300, discount: 15, image: "https://images.pexels.com/photos/128427/pexels-photo-128427.jpeg", description: "Antioxidant-rich dried blueberries." },
-    { name: "Dried Strawberries", price: 270, discount: 10, image: "https://images.pexels.com/photos/128428/pexels-photo-128428.jpeg", description: "Juicy dried strawberries for snacks." },
-    { name: "Dried Peaches", price: 240, discount: 5, image: "https://images.pexels.com/photos/128429/pexels-photo-128429.jpeg", description: "Soft dried peaches for trail mix." },
-    { name: "Dried Pears", price: 250, discount: 15, image: "https://images.pexels.com/photos/128430/pexels-photo-128430.jpeg", description: "Sweet dried pear slices." },
-    { name: "Dried Bananas", price: 200, discount: 20, image: "https://images.pexels.com/photos/128431/pexels-photo-128431.jpeg", description: "Crispy dried banana chips." },
-    { name: "Dried Figs", price: 290, discount: 10, image: "https://images.pexels.com/photos/128432/pexels-photo-128432.jpeg", description: "Chewy dried figs for desserts." },
-    { name: "Dried Goji Berries", price: 320, discount: 15, image: "https://images.pexels.com/photos/128433/pexels-photo-128433.jpeg", description: "Nutrient-rich dried goji berries." },
-    { name: "Dried Mulberries", price: 310, discount: 10, image: "https://images.pexels.com/photos/128434/pexels-photo-128434.jpeg", description: "Sweet dried mulberries for snacking." },
-    { name: "Dried Apricots", price: 260, discount: 5, image: "https://images.pexels.com/photos/128435/pexels-photo-128435.jpeg", description: "Soft dried apricots for baking." },
-    { name: "Dried Dates", price: 280, discount: 15, image: "https://images.pexels.com/photos/128436/pexels-photo-128436.jpeg", description: "Juicy dried dates for energy." },
-    { name: "Dried Raisins", price: 200, discount: 20, image: "https://images.pexels.com/photos/128437/pexels-photo-128437.jpeg", description: "Sweet dried raisins for cereal." },
-    { name: "Dried Cranberries", price: 250, discount: 10, image: "https://images.pexels.com/photos/128438/pexels-photo-128438.jpeg", description: "Tart dried cranberries for salads." },
-    { name: "Dried Prunes", price: 240, discount: 15, image: "https://images.pexels.com/photos/128439/pexels-photo-128439.jpeg", description: "Juicy dried prunes for digestion." },
-    { name: "Dried Coconut", price: 230, discount: 10, image: "https://images.pexels.com/photos/128440/pexels-photo-128440.jpeg", description: "Shredded dried coconut for baking." },
-    { name: "Dried Persimmons", price: 270, discount: 5, image: "https://images.pexels.com/photos/128441/pexels-photo-128441.jpeg", description: "Sweet dried persimmons for snacks." },
+      { name: "Dried Mango", price: 250, discount: 10, image: "https://media.istockphoto.com/id/1305930791/photo/dried-mango-slices.jpg?s=612x612&w=0&k=20&c=WN1KQeYfZuuIBzsScfcim1kYH2shw_5UEm_4hPSnxDE=", description: "Chewy dried mango slices." },
+    { name: "Dried Pineapple", price: 220, discount: 15, image: "https://www.chhappanbhog.com/wp-content/uploads/2022/07/dehydrated-pineapple-500x500-1.jpg", description: "Sweet dried pineapple rings." },
+    { name: "Dried Papaya", price: 230, discount: 5, image: "https://www.goingnuts.in/wp-content/uploads/2023/03/PSX_20220207_133228-1-scaled-1.jpg", description: "Tropical dried papaya chunks." },
+    { name: "Dried Kiwi", price: 260, discount: 20, image: "https://m.media-amazon.com/images/I/41QLkVsh4YL.jpg", description: "Tart dried kiwi slices." },
+    { name: "Dried Cherries", price: 280, discount: 10, image: "https://m.media-amazon.com/images/I/81+jjxm0jrL._UF1000,1000_QL80_.jpg", description: "Sweet dried cherries for baking." },
+    { name: "Dried Blueberries", price: 300, discount: 15, image: "https://rukminim2.flixcart.com/image/704/844/kfeamq80/nut-dry-fruit/e/3/k/150-primium-dried-blueberries-pouch-nutriora-original-imafvv2nzxeghgv6.jpeg?q=90&crop=false", description: "Antioxidant-rich dried blueberries." },
+    { name: "Dried Strawberries", price: 270, discount: 10, image: "https://www.newrameshkirana.com/wp-content/uploads/2020/06/dry-strawberry-scaled.jpg", description: "Juicy dried strawberries for snacks." },
+    { name: "Dried Peaches", price: 240, discount: 5, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTC2VmeovQ4bQDsEfdx4Zq-QWmyaCWKBBEKg&s", description: "Soft dried peaches for trail mix." },
+    { name: "Dried Pears", price: 250, discount: 15, image: "https://www.nichefruits.com.au/cdn/shop/products/Pearproduct_300x.JPG?v=1535950343", description: "Sweet dried pear slices." },
+    { name: "Dried Bananas", price: 200, discount: 20, image: "https://realfoodrealdeals.com/wp-content/uploads/2022/10/dehydrated-banana-chips-sq22.jpeg", description: "Crispy dried banana chips." },
+   
+    { name: "Dried Goji Berries", price: 320, discount: 15, image: "https://m.media-amazon.com/images/I/61G86OkcxuL._UF1000,1000_QL80_.jpg", description: "Nutrient-rich dried goji berries." },
+    { name: "Dried Mulberries", price: 310, discount: 10, image: "https://4.imimg.com/data4/MB/KA/IOS-20585057/product-500x500.jpeg", description: "Sweet dried mulberries for snacking." },
+    { name: "Dried Apricots", price: 260, discount: 5, image: "https://safadryfruitsandspices.com/wp-content/uploads/2023/09/4.jpg", description: "Soft dried apricots for baking." },
+    
+    { name: "Dried Raisins", price: 200, discount: 20, image: "https://sindhidryfruits.live/cdn/shop/products/KaliDrak_BlackRaisinsorBlackKishmish_2.jpg?v=1741509458", description: "Sweet dried raisins for cereal." },
+    { name: "Dried Cranberries", price: 250, discount: 10, image: "https://www.greendna.in/cdn/shop/products/cran.jpg?v=1605369467", description: "Tart dried cranberries for salads." },
+   
+    { name: "Dried Coconut", price: 230, discount: 10, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrzfWte05tJjM44hU54EaLWJWoLEJ8AO7MMw&s", description: "Shredded dried coconut for baking." },
+    { name: "Dried Persimmons", price: 270, discount: 5, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQtEWpPpUzF59RvMMz1Flh_CfD0f5yHoYKZA&s", description: "Sweet dried persimmons for snacks." },
 
     ],
     meat: [
@@ -556,25 +556,23 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
       { name: "Chicken Keema", price: 200, discount: 15, image: "https://assets.tendercuts.in/product/R/M/7e88fd38-f531-427f-b331-d25a54d53ff8.jpg", description: "Spicy chicken keema for curries." },
       { name: "Mutton Shoulder", price: 420, discount: 20, image: "https://thumbs.dreamstime.com/b/whole-raw-lamb-shoulder-leg-meat-garlic-mint-dark-wooden-background-top-view-whole-raw-lamb-shoulder-leg-meat-garlic-203544267.jpg", description: "Tender mutton shoulder for roasting." },
 
-      { name: "Turkey Breast", price: 300, discount: 15, image: "https://images.pexels.com/photos/128443/pexels-photo-128443.jpeg", description: "Juicy turkey breast for sandwiches." },
-    { name: "Duck Breast", price: 450, discount: 20, image: "https://images.pexels.com/photos/128444/pexels-photo-128444.jpeg", description: "Rich duck breast for gourmet dishes." },
+      { name: "Turkey Breast", price: 300, discount: 15, image: "https://marilusmarket.com/storage/cateritem/01J81ANV7JX81350N8EARN573V.jpg", description: "Juicy turkey breast for sandwiches." },
+    { name: "Duck Breast", price: 450, discount: 20, image: "https://media.istockphoto.com/id/617880108/photo/raw-duck-breast.jpg?s=612x612&w=0&k=20&c=8WRECQzIHsWbmhV3BSkB5UzzoVUSAg-0NR8vFUn3nfg=", description: "Rich duck breast for gourmet dishes." },
     
-    { name: "Turkey Drumsticks", price: 320, discount: 5, image: "https://images.pexels.com/photos/128446/pexels-photo-128446.jpeg", description: "Hearty turkey drumsticks for roasting." },
-    { name: "Venison Steak", price: 500, discount: 15, image: "https://images.pexels.com/photos/128447/pexels-photo-128447.jpeg", description: "Lean venison steak for grilling." },
+    { name: "Turkey Drumsticks", price: 320, discount: 5, image: "https://sweetstuff.in/wp-content/uploads/2022/11/20.Raw-Turkey-Drumsticks.jpg", description: "Hearty turkey drumsticks for roasting." },
+    { name: "Venison Steak", price: 500, discount: 15, image: "https://www.wildmeat.co.uk/cdn/shop/products/Venison-steaks_web.jpg?v=1494002369", description: "Lean venison steak for grilling." },
     
-    { name: "Turkey Mince", price: 280, discount: 15, image: "https://images.pexels.com/photos/128449/pexels-photo-128449.jpeg", description: "Versatile turkey mince for burgers." },
-    { name: "Bacon Strips", price: 400, discount: 20, image: "https://images.pexels.com/photos/128450/pexels-photo-128450.jpeg", description: "Crispy bacon for breakfast." },
-    { name: "Sausage Links", price: 350, discount: 10, image: "https://images.pexels.com/photos/128451/pexels-photo-128451.jpeg", description: "Flavorful pork sausages for grilling." },
-    { name: "Lamb Shank", price: 450, discount: 15, image: "https://images.pexels.com/photos/128452/pexels-photo-128452.jpeg", description: "Tender lamb shank for slow cooking." },
-    { name: "Chicken Liver", price: 200, discount: 5, image: "https://images.pexels.com/photos/128453/pexels-photo-128453.jpeg", description: "Rich chicken liver for pâté." },
-    { name: "Beef Liver", price: 250, discount: 10, image: "https://images.pexels.com/photos/128454/pexels-photo-128454.jpeg", description: "Nutrient-dense beef liver for frying." },
+    { name: "Turkey Mince", price: 280, discount: 15, image: "https://media.istockphoto.com/id/841450228/photo/minced-chicken-or-turkey-meat.jpg?s=612x612&w=0&k=20&c=Tb2O8SnMCYWNSxsSYM5SJ1D-4u82fo1CfrahxP7CGeI=", description: "Versatile turkey mince for burgers." },
+    { name: "Lamb Shank", price: 450, discount: 15, image: "https://media.istockphoto.com/id/1629302517/photo/lamb-shank-raw-lamb-shank-meat-on-dark-background-butcher-products.jpg?s=612x612&w=0&k=20&c=mY6QL86nXF8L-0t20oijb9CbI-K2u1HVUYZN0OYAGzo=", description: "Tender lamb shank for slow cooking." },
+    { name: "Chicken Liver", price: 200, discount: 5, image: "https://5.imimg.com/data5/PM/GB/MY-2/chicken-liver-500x500.jpg", description: "Rich chicken liver for pâté." },
+    { name: "Beef Liver", price: 250, discount: 10, image: "https://stockmansteaks.com.au/cdn/shop/products/p_235f68c1-34c4-4982-bc36-f94aa7086fee.jpg?v=1678593789&width=300", description: "Nutrient-dense beef liver for frying." },
    
-    { name: "Rabbit Meat", price: 500, discount: 20, image: "https://images.pexels.com/photos/128456/pexels-photo-128456.jpeg", description: "Lean rabbit meat for stews." },
-    { name: "Quail", price: 400, discount: 10, image: "https://images.pexels.com/photos/128457/pexels-photo-128457.jpeg", description: "Delicate quail for roasting." },
-    { name: "Goat Curry Cut", price: 420, discount: 15, image: "https://images.pexels.com/photos/128458/pexels-photo-128458.jpeg", description: "Tender goat for spicy curries." },
-    { name: "Chicken Gizzards", price: 220, discount: 5, image: "https://images.pexels.com/photos/128459/pexels-photo-128459.jpeg", description: "Chewy gizzards for soups." },
-    { name: "Beef Tongue", price: 350, discount: 10, image: "https://images.pexels.com/photos/128460/pexels-photo-128460.jpeg", description: "Rich beef tongue for slow cooking." },
-    { name: "Corned Beef", price: 400, discount: 15, image: "https://images.pexels.com/photos/128461/pexels-photo-128461.jpeg", description: "Cured corned beef for sandwiches." },
+    { name: "Rabbit Meat", price: 500, discount: 20, image: "https://media.istockphoto.com/id/475957980/photo/raw-rabbit-meat.jpg?s=612x612&w=0&k=20&c=k6gkDrFiY7Ahto1LXpK2Al4DoxnnOB3iw7VOxpP3UcI=", description: "Lean rabbit meat for stews." },
+    { name: "Quail", price: 400, discount: 10, image: "https://www.shutterstock.com/image-photo/fresh-raw-quail-on-wooden-260nw-1679707645.jpg", description: "Delicate quail for roasting." },
+    { name: "Goat Curry Cut", price: 420, discount: 15, image: "https://assets.tendercuts.in/product/G/T/58fede4a-3182-4629-8f30-4b7ff56431b4.webp", description: "Tender goat for spicy curries." },
+    { name: "Chicken Gizzards", price: 220, discount: 5, image: "https://www.oifood.in/files/products/c1596c45d11a1ded7db6f5ff0245353d.jpg", description: "Chewy gizzards for soups." },
+    
+    
 
     ],
     electronics: [
@@ -767,21 +765,21 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
 ],
    
   cooldrinks: [
-    { name: "Coca-Cola Zero Sugar", price: 50, discount: 10, image: "https://images.pexels.com/photos/594587/pexels-photo-594587.jpeg", description: "Sugar-free cola with classic taste." },
-    { name: "Pepsi Max", price: 50, discount: 15, image: "https://images.pexels.com/photos/594588/pexels-photo-594588.jpeg", description: "Bold Pepsi flavor, no sugar." },
-    { name: "Sprite Zero", price: 45, discount: 5, image: "https://images.pexels.com/photos/594589/pexels-photo-594589.jpeg", description: "Crisp lemon-lime, sugar-free." },
-    { name: "Fanta Orange", price: 50, discount: 10, image: "https://images.pexels.com/photos/594590/pexels-photo-594590.jpeg", description: "Zesty orange soda." },
-    { name: "Mirinda Citrus", price: 45, discount: 15, image: "https://images.pexels.com/photos/594591/pexels-photo-594591.jpeg", description: "Tangy citrus soda for refreshment." },
-    { name: "7UP Free", price: 50, discount: 20, image: "https://images.pexels.com/photos/594592/pexels-photo-594592.jpeg", description: "Sugar-free lemon-lime soda." },
-    { name: "Mountain Dew Spark", price: 55, discount: 10, image: "https://images.pexels.com/photos/594593/pexels-photo-594593.jpeg", description: "Energizing raspberry-lemon soda." },
-    { name: "Dr Pepper Zero", price: 50, discount: 15, image: "https://images.pexels.com/photos/594594/pexels-photo-594594.jpeg", description: "Unique flavor, no sugar." },
-    { name: "Tonic Water", price: 60, discount: 5, image: "https://images.pexels.com/photos/594595/pexels-photo-594595.jpeg", description: "Schweppes tonic for cocktails." },
-    { name: "Ginger Ale", price: 55, discount: 10, image: "https://images.pexels.com/photos/594596/pexels-photo-594596.jpeg", description: "Spicy ginger ale for mixers." },
-    { name: "Sparkling Water", price: 40, discount: 15, image: "https://images.pexels.com/photos/594597/pexels-photo-594597.jpeg", description: "Pure sparkling water, no calories." },
-    { name: "Lemon Iced Tea", price: 60, discount: 20, image: "https://images.pexels.com/photos/594598/pexels-photo-594598.jpeg", description: "Refreshing lemon-flavored iced tea." },
-    { name: "Peach Iced Tea", price: 60, discount: 10, image: "https://images.pexels.com/photos/594599/pexels-photo-594599.jpeg", description: "Sweet peach iced tea." },
-    { name: "Energy Drink", price: 80, discount: 15, image: "https://images.pexels.com/photos/594600/pexels-photo-594600.jpeg", description: "Red Bull energy drink for a boost." },
-    { name: "Coconut Water", price: 70, discount: 10, image: "https://images.pexels.com/photos/594601/pexels-photo-594601.jpeg", description: "Natural coconut water for hydration." },
+    { name: "Coca-Cola Zero Sugar", price: 50, discount: 10, image: "https://cdn.grofers.com/da/cms-assets/cms/product/385573f7-3ca7-41bd-9fb1-1676a715b83b.jpg?ts=1738329883", description: "Sugar-free cola with classic taste." },
+    { name: "Pepsi Max", price: 50, discount: 15, image: "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC_RS/34_WoltIntegration/05_web_delivery_termekkepek/13_drinks/440x440/kfc_srb_pepsi_max_033l_440x440.png", description: "Bold Pepsi flavor, no sugar." },
+    { name: "Sprite Zero", price: 45, discount: 5, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXsyQXhqZ_B5THvc8_hrpUs0spJ9ZXFRs97V3E38KP3Ya7f8dtwXAcuFwxS1S8bFAwxfQ&usqp=CAU", description: "Crisp lemon-lime, sugar-free." },
+    { name: "Fanta Orange", price: 50, discount: 10, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIbtB54Wf0xsDQSHr6ADh5WbWZ7NXdpycK_Q&s", description: "Zesty orange soda." },
+    { name: "Mirinda Citrus", price: 45, discount: 15, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMl1fVhwyEwdL2l4p4gBiUxDhvstlYCpiNYA&s", description: "Tangy citrus soda for refreshment." },
+    { name: "7UP Free", price: 50, discount: 20, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvRGaM8_VYe4EYPtD3EmgfXX2wcETmHH87ZQ&s", description: "Sugar-free lemon-lime soda." },
+    { name: "Mountain Dew Spark", price: 55, discount: 10, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSZUSyRQBTciYFrmn0YFxoMRn1AUBwYpvgYA&s", description: "Energizing raspberry-lemon soda." },
+    { name: "Dr Pepper Zero", price: 50, discount: 15, image: "https://images-cdn.ubuy.co.in/67d5a07a3ad0b05f5361f411-dr-pepper-zero-sugar-soda-pop-12-fl-oz.jpg", description: "Unique flavor, no sugar." },
+    { name: "Tonic Water", price: 60, discount: 5, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT15H58R7ZvCf88jVbIz6xquqGT2crwnzjxCw&s", description: "Schweppes tonic for cocktails." },
+    { name: "Ginger Ale", price: 55, discount: 10, image: "https://m.media-amazon.com/images/I/61jLLcZF4PL._UF1000,1000_QL80_.jpg", description: "Spicy ginger ale for mixers." },
+    { name: "Sparkling Water", price: 40, discount: 15, image: "https://shakeshack.ph/Files/Images/SS/Product/SHK5528.jpg", description: "Pure sparkling water, no calories." },
+    { name: "Lemon Iced Tea", price: 60, discount: 20, image: "https://my.fnlife.com/pub/media/catalog/product/cache/1270337d5bbd2f34cfe21e58bb4c921d/_/i/_i_c_icelemontea300ml_02.jpg", description: "Refreshing lemon-flavored iced tea." },
+    { name: "Peach Iced Tea", price: 60, discount: 10, image: "https://chaichai.in/cdn/shop/files/Peach-Iced-Tea-F-1000x1000.png?v=1742298997&width=1445", description: "Sweet peach iced tea." },
+    { name: "Energy Drink", price: 80, discount: 15, image: "https://5.imimg.com/data5/ANDROID/Default/2022/2/CW/RO/JR/114766272/img-20220121-wa0008-13307860920885-jpg-500x500.jpg", description: "Red Bull energy drink for a boost." },
+    { name: "Coconut Water", price: 70, discount: 10, image: "https://wingreensworld.com/cdn/shop/products/Coconutwater200ml04.jpg?v=1692272720&width=1500", description: "Natural coconut water for hydration." },
     { name: "Pomegranate Juice", price: 100, discount: 5, image: "https://images.pexels.com/photos/594602/pexels-photo-594602.jpeg", description: "Antioxidant-rich pomegranate juice." },
     { name: "Mango Juice", price: 90, discount: 15, image: "https://images.pexels.com/photos/594603/pexels-photo-594603.jpeg", description: "Sweet mango juice for refreshment." },
     { name: "Orange Juice", price: 80, discount: 10, image: "https://images.pexels.com/photos/594604/pexels-photo-594604.jpeg", description: "Freshly squeezed orange juice." },
@@ -809,28 +807,28 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
     { name: "Rose Lemonade", price: 60, discount: 10, image: "https://images.pexels.com/photos/594626/pexels-photo-594626.jpeg", description: "Floral rose-flavored lemonade." },
   ],
   snacks: [
-    { name: "Potato Chips", price: 30, discount: 10, image: "https://images.pexels.com/photos/594627/pexels-photo-594627.jpeg", description: "Classic salted potato chips." },
-    { name: "Cheese Puffs", price: 35, discount: 15, image: "https://images.pexels.com/photos/594628/pexels-photo-594628.jpeg", description: "Crunchy cheese-flavored puffs." },
-    { name: "Tortilla Chips", price: 40, discount: 5, image: "https://images.pexels.com/photos/594629/pexels-photo-594629.jpeg", description: "Corn tortilla chips for dipping." },
-    { name: "Popcorn", price: 25, discount: 10, image: "https://images.pexels.com/photos/594630/pexels-photo-594630.jpeg", description: "Buttered popcorn for movie nights." },
-    { name: "Pretzels", price: 30, discount: 15, image: "https://images.pexels.com/photos/594631/pexels-photo-594631.jpeg", description: "Salty pretzels for snacking." },
-    { name: "Veggie Chips", price: 45, discount: 20, image: "https://images.pexels.com/photos/594632/pexels-photo-594632.jpeg", description: "Mixed vegetable chips for health." },
-    { name: "Rice Crackers", price: 35, discount: 10, image: "https://images.pexels.com/photos/594633/pexels-photo-594633.jpeg", description: "Light rice crackers with soy flavor." },
-    { name: "Peanut Brittle", price: 50, discount: 15, image: "https://images.pexels.com/photos/594634/pexels-photo-594634.jpeg", description: "Sweet and crunchy peanut brittle." },
-    { name: "Granola Bars", price: 40, discount: 5, image: "https://images.pexels.com/photos/594635/pexels-photo-594635.jpeg", description: "Chewy granola bars with nuts." },
-    { name: "Trail Mix", price: 60, discount: 10, image: "https://images.pexels.com/photos/594636/pexels-photo-594636.jpeg", description: "Nut and fruit trail mix." },
-    { name: "Corn Nuts", price: 30, discount: 15, image: "https://images.pexels.com/photos/594637/pexels-photo-594637.jpeg", description: "Crunchy roasted corn nuts." },
-    { name: "Pita Chips", price: 35, discount: 20, image: "https://images.pexels.com/photos/594638/pexels-photo-594638.jpeg", description: "Baked pita chips for hummus." },
-    { name: "Cheese Crackers", price: 40, discount: 10, image: "https://images.pexels.com/photos/594639/pexels-photo-594639.jpeg", description: "Savory cheese-flavored crackers." },
-    { name: "Wasabi Peas", price: 45, discount: 15, image: "https://images.pexels.com/photos/594640/pexels-photo-594640.jpeg", description: "Spicy wasabi-coated peas." },
-    { name: "Fruit Leather", price: 30, discount: 10, image: "https://images.pexels.com/photos/594641/pexels-photo-594641.jpeg", description: "Chewy fruit leather strips." },
-    { name: "Seaweed Snacks", price: 50, discount: 5, image: "https://images.pexels.com/photos/594642/pexels-photo-594642.jpeg", description: "Crispy roasted seaweed sheets." },
-    { name: "Chickpea Snacks", price: 40, discount: 15, image: "https://images.pexels.com/photos/594643/pexels-photo-594643.jpeg", description: "Roasted chickpeas with spices." },
-    { name: "Energy Balls", price: 60, discount: 20, image: "https://images.pexels.com/photos/594644/pexels-photo-594644.jpeg", description: "Nut-based energy bites." },
-    { name: "Baked Lentil Chips", price: 45, discount: 10, image: "https://images.pexels.com/photos/594645/pexels-photo-594645.jpeg", description: "Protein-rich lentil chips." },
-    { name: "Coconut Chips", price: 50, discount: 15, image: "https://images.pexels.com/photos/594646/pexels-photo-594646.jpeg", description: "Toasted coconut chips for snacking." },
-    { name: "Salsa Dip", price: 70, discount: 10, image: "https://images.pexels.com/photos/594647/pexels-photo-594647.jpeg", description: "Spicy salsa for chip dipping." },
-    { name: "Hummus Dip", price: 60, discount: 15, image: "https://images.pexels.com/photos/594648/pexels-photo-594648.jpeg", description: "Creamy hummus for veggie sticks." },
+    { name: "Potato Chips", price: 30, discount: 10, image: "https://mirchi.com/os/cdn/content/images/potato%20chips%20seeni%20s%20savouries_medium_0256272.webp", description: "Classic salted potato chips." },
+    { name: "Cheese Puffs", price: 35, discount: 15, image: "https://m.media-amazon.com/images/I/81B5IBWSYiL.jpg", description: "Crunchy cheese-flavored puffs." },
+    { name: "Tortilla Chips", price: 40, discount: 5, image: "https://m.media-amazon.com/images/I/61Nb0jVGOyL.jpg", description: "Corn tortilla chips for dipping." },
+    { name: "Popcorn", price: 25, discount: 10, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx443GAV90bFbuNIGHjUi91yDA4Mbxs07zig&s", description: "Buttered popcorn for movie nights." },
+    { name: "Pretzels", price: 30, discount: 15, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuXaJOhYUsEnQaITy_iTom607ou0EtbhWZMg&s", description: "Salty pretzels for snacking." },
+    { name: "Veggie Chips", price: 45, discount: 20, image: "https://images-cdn.ubuy.co.in/633b70fd0904830d7028c4b4-sensible-portions-garden-veggie-chips.jpg", description: "Mixed vegetable chips for health." },
+    { name: "Rice Crackers", price: 35, discount: 10, image: "https://m.media-amazon.com/images/I/71heU6cj5HL._UF350,350_QL80_.jpg", description: "Light rice crackers with soy flavor." },
+    { name: "Peanut Brittle", price: 50, discount: 15, image: "https://images-na.ssl-images-amazon.com/images/I/81CvhU1DZLL._AC_UL210_SR210,210_.jpg", description: "Sweet and crunchy peanut brittle." },
+    { name: "Granola Bars", price: 40, discount: 5, image: "https://cdn.gaiagoodhealth.com/wp-content/uploads/2024/02/26124149/Chocolate-Muesli-Granola-Bar-pack-of-2.jpg", description: "Chewy granola bars with nuts." },
+    { name: "Trail Mix", price: 60, discount: 10, image: "https://nuttygritties.com/cdn/shop/products/1_384b576a-fb58-4775-8580-73f227a4ec8a_800x.jpg?v=1706683667", description: "Nut and fruit trail mix." },
+    { name: "Corn Nuts", price: 30, discount: 15, image: "https://m.media-amazon.com/images/I/81lsUKUIEDL.jpg", description: "Crunchy roasted corn nuts." },
+    { name: "Pita Chips", price: 35, discount: 20, image: "https://m.media-amazon.com/images/I/61npOLvkeRL._UF1000,1000_QL80_.jpg", description: "Baked pita chips for hummus." },
+    { name: "Cheese Crackers", price: 40, discount: 10, image: "https://5.imimg.com/data5/SELLER/Default/2024/11/467332102/IX/JC/ZQ/191112664/priyagold-cheese-cracker-200-g-pack-1-500x500.jpg", description: "Savory cheese-flavored crackers." },
+    { name: "Wasabi Peas", price: 45, discount: 15, image: "https://5.imimg.com/data5/SELLER/Default/2021/9/GP/DQ/RF/7370956/ab2cd24b-5c78-4a7b-8e5e-ddee6e99251e.jpg", description: "Spicy wasabi-coated peas." },
+    { name: "Fruit Leather", price: 30, discount: 10, image: "https://5.imimg.com/data5/SELLER/Default/2024/1/377124167/KH/LL/LG/159824908/mango-leather-500x500.png", description: "Chewy fruit leather strips." },
+    { name: "Seaweed Snacks", price: 50, discount: 5, image: "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/gim/gim44612/y/18.jpg", description: "Crispy roasted seaweed sheets." },
+    { name: "Chickpea Snacks", price: 40, discount: 15, image: "https://m.media-amazon.com/images/I/71cvgHKUBhL._UF1000,1000_QL80_.jpg", description: "Roasted chickpeas with spices." },
+    { name: "Energy Balls", price: 60, discount: 20, image: "https://m.media-amazon.com/images/I/61hKtEuCTnL._UF1000,1000_QL80_.jpg", description: "Nut-based energy bites." },
+    { name: "Baked Lentil Chips", price: 45, discount: 10, image: "https://m.media-amazon.com/images/I/61LfwgwKUAL._UF1000,1000_QL80_.jpg", description: "Protein-rich lentil chips." },
+    { name: "Coconut Chips", price: 50, discount: 15, image: "https://shop.tonggarden.co.in/media/wysiwyg/2_17.jpg", description: "Toasted coconut chips for snacking." },
+    { name: "Salsa Dip", price: 70, discount: 10, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAbr836hde-VnRA7U_jE-o5LctCbJiyc6xng&s", description: "Spicy salsa for chip dipping." },
+    { name: "Hummus Dip", price: 60, discount: 15, image: "https://5.imimg.com/data5/ECOM/Default/2025/7/523747726/EQ/YY/OM/114136878/full-screen-pro-471842jpgts1710347242-13e6e5e0-6168-4068-90b5-24683aa121c9-500x500.jpg", description: "Creamy hummus for veggie sticks." },
     { name: "Guacamole Dip", price: 80, discount: 20, image: "https://images.pexels.com/photos/594649/pexels-photo-594649.jpeg", description: "Fresh guacamole for tortilla chips." },
     { name: "Nut Butter Pack", price: 50, discount: 10, image: "https://images.pexels.com/photos/594650/pexels-photo-594650.jpeg", description: "Single-serve almond butter packs." },
     { name: "Beef Jerky", price: 100, discount: 15, image: "https://images.pexels.com/photos/594651/pexels-photo-594651.jpeg", description: "High-protein beef jerky." },
@@ -865,36 +863,66 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
     meat: "https://media.istockphoto.com/id/923692030/photo/variety-of-raw-black-angus-prime-meat-steaks.jpg?s=612x612&w=0&k=20&c=QWs-aEHfLMF74kWVHt5srGB-1noX-st5I3Ntg-kAJ9s=",
     electronics: "https://images.pexels.com/photos/341523/pexels-photo-341523.jpeg",
     accessories: "https://images.pexels.com/photos/1460838/pexels-photo-1460838.jpeg",
-    toys: "https://images.pexels.com/photos/12211/pexels-photo-12211.jpeg",
-    milkproducts: "https://static.vecteezy.com/system/resources/previews/040/561/318/non_2x/ai-generated-assorted-dairy-products-on-table-free-photo.jpg",
-    cooldrinks: "https://images.unsplash.com/photo-1624282883502-90d99a7818c5?q=80&w=870&auto=format&fit=crop",
-   snacks: "https://images.unsplash.com/photo-1608039661191-4f7b2f0e312b?q=80&w=870&auto=format&fit=crop",
+    toys: "https://images.indianexpress.com/2019/09/toys.jpg",
+    milkproducts: "https://static.vecteezy.com/system/resources/thumbnails/049/461/858/small_2x/assorted-dairy-products-including-milk-cheese-cottage-cheese-and-eggs-arranged-on-wooden-table-photo.jpeg",
+    cooldrinks: "https://static.vecteezy.com/system/resources/thumbnails/040/174/391/small_2x/ai-generated-pictures-of-delicious-and-beautiful-drinks-photo.jpg",
+   snacks: "https://www.haldiram.com/media/.renditions/wysiwyg/homepage/Savouries_Banner_1_.jpg?auto=webp&format=pjpg&quality=85",
 
   };
 
 
+  const categories = [
+    { name: "Fruits", value: "fruits" },
+    { name: "Vegetables", value: "vegetables" },
+    { name: "Grains", value: "grains" },
+    { name: "Oils", value: "oils" },
+    { name: "Dryfruits", value: "dryfruits" },
+    { name: "Meat", value: "meat" },
+    { name: "Electronics", value: "electronics" },
+    { name: "Accessories", value: "accessories" },
+    { name: "Toys", value: "toys" },
+    { name: "Milkproducts", value: "milkproducts" },
+    { name: "cooldrinks" , value: "cooldrinks"},
+    { name: "snacks" , value: "snacks"},
+  ];
 
 
 
+    const items = categoriesData[category] || [];
 
-
-
-  const items = categoriesData[category] || [];
   return (
-    <div className="mt-20">
-      <button onClick={onBack} className="mb-4 bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition duration-200">Back to Categories</button>
-      <h1 className="text-4xl font-extrabold text-gray-800 mb-6 text-center">{category.charAt(0).toUpperCase() + category.slice(1)}</h1>
-
-
-
+    <div className="mt-20 max-w-7xl mx-auto p-4">
+      <div className="category-nav flex items-center space-x-4 overflow-x-auto mb-4">
+        <button
+          onClick={onBack}
+          className="bg-gradient-to-r from-green-500 to-green-700 text-white px-4 py-2 rounded-lg shadow-lg hover:from-green-600 hover:to-green-800 transition duration-300 transform hover:scale-105"
+        >
+          Back to Categories
+        </button>
+        {categories.map((cat) => (
+          <button
+            key={cat.value}
+            onClick={() => setCurrentPage(cat.value)}
+            className={`px-4 py-2 rounded-lg text-sm font-semibold transition duration-300 transform hover:scale-105 shadow-md ${
+              cat.value === category
+                ? 'bg-gradient-to-r from-green-500 to-green-700 text-white'
+                : 'bg-gradient-to-r from-gray-100 to-gray-300 text-gray-800 hover:from-gray-200 hover:to-gray-400'
+            }`}
+          >
+            {cat.name}
+          </button>
+        ))}
+      </div>
+      <h1 className="text-4xl font-extrabold text-gray-800 mb-6 text-center dark:text-gray-200">
+        {category.charAt(0).toUpperCase() + category.slice(1)}
+      </h1>
       <div className="category-banner mb-6">
         <img
           src={categoryBanners[category]}
           alt={`${category} banner`}
           className="w-full h-64 object-cover rounded-lg shadow-md"
         />
-      </div>
-
+      </div> 
 
 
 
@@ -1482,7 +1510,7 @@ const Home = ({ onNavigate, addToCart, setCurrentPage }) => {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
                 <h3 className="text-lg font-semibold mb-4">E-Commerce Hub</h3>
-                <p className="text-sm text-gray-400">
+                <p className="text-sm text-white-400">
                   Your one-stop shop for groceries, electronics, and more. Shop with ease and get fast delivery!
                 </p>
               </div>
@@ -1498,9 +1526,9 @@ const Home = ({ onNavigate, addToCart, setCurrentPage }) => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-                <p className="text-sm text-gray-400">Email: support@ecommercehub.com</p>
-                <p className="text-sm text-gray-400">Phone: +91 123 456 7890</p>
-                <p className="text-sm text-gray-400">Address: 123 Commerce Street, Bangalore, India</p>
+                <p className="text-sm text-white-400">Email: support@ecommercehub.com</p>
+                <p className="text-sm text-white-400">Phone: +91 123 456 7890</p>
+                <p className="text-sm text-white-400">Address: 123 Commerce Street, Bangalore, India</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
@@ -1523,8 +1551,8 @@ const Home = ({ onNavigate, addToCart, setCurrentPage }) => {
                 </div>
               </div>
             </div>
-            <div className="mt-8 border-t border-gray-700 pt-4 text-center">
-              <p className="text-sm text-gray-400">© 2025 E-Commerce Hub. All rights reserved.</p>
+            <div className="mt-8 border-t border-white-700 pt-4 text-center">
+              <p className="text-sm text-white-400">© 2025 E-Commerce Hub. All rights reserved.</p>
             </div>
           </div>
         </footer>

@@ -50,17 +50,17 @@
     }
     .sidebar {
       position: fixed;
-      top: 0;
+      top: 15px;
       left: -240px;
       height: 100%;
       width: 200px;
       background-color: whitesmoke;
   
-      padding-top: 2rem;
+      padding-top: 2.5rem;
       transition: left 0.3s ease-in-out, transform 0.2s ease-in-out; /* Optimized for smoother transition */
       z-index: 999;
       transform: translateX(0); /* Ensure smooth sliding */
-      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+      box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 
     }
     .sidebar.open {
@@ -474,13 +474,13 @@
    
  /* Footer Styles */
   .footer {
-    background-color: #2d3748;
+    background-color: #347433;
     color: white;
     padding: 2rem 1rem;
     margin-top: 2rem;
   }
   .footer a {
-    color: #a0aec0;
+    color: whitesmoke;
     text-decoration: none;
     transition: color 0.2s;
   }
@@ -521,7 +521,39 @@
 
 
 
- 
+.category-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Matches space-x-4 in Tailwind */
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scrollbar-width: none; /* Hide scrollbar for Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+}
+
+.category-nav::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for Chrome, Safari, etc. */
+}
+
+.category-nav button {
+  white-space: nowrap;
+  padding: 0.5rem 1rem; /* Consistent padding with Back button */
+  border-radius: 0.5rem; /* Smoother rounded corners */
+  font-size: 0.875rem; /* Matches text-sm in Tailwind */
+  font-weight: 600; /* Bolder font for emphasis */
+  transition: all 0.3s ease-in-out; /* Smoother transition for all properties */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.category-nav button:hover {
+  transform: scale(1.05); /* Matches hover:scale-105 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.category-nav button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.3); /* Green focus ring matching color scheme */
+}
 
   </style>
 </head>
