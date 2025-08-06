@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/react/static/js/main.d72fb41a.js",
+    "main.js": "/react/static/js/main.f583a3fe.js",
     "static/media/iheb-ab-OBufvGMaBaQ-unsplash.jpg": "/react/static/media/iheb-ab-OBufvGMaBaQ-unsplash.c05abaddea0a4d5b0eb3.jpg",
     "static/media/Astolite_Logo-removebg-preview.png": "/react/static/media/Astolite_Logo-removebg-preview.8652c973a69699000f36.png",
     "index.html": "/react/index.html",
-    "main.d72fb41a.js.map": "/react/static/js/main.d72fb41a.js.map"
+    "main.f583a3fe.js.map": "/react/static/js/main.f583a3fe.js.map"
   },
   "entrypoints": [
-    "static/js/main.d72fb41a.js"
+    "static/js/main.f583a3fe.js"
   ]
 }
