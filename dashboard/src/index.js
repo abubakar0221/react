@@ -145,6 +145,9 @@ const Header = ({ onMenuToggle, cartCount, onDarkModeToggle, darkMode, onLanguag
           <option value="en">English</option>
           <option value="hi">हिन्दी</option>
           <option value="ar">العربية</option>
+          <option value="tr">Türkçe</option> {/* Turkish */}
+          <option value="es">Español</option> {/* Spanish */}
+          <option value="te">తెలుగు</option> {/* Telugu */}
         </select>
         <button className="bg-white text-green-600 px-4 py-2 rounded-lg flex items-center hover:bg-gray-100 transition duration-200">
           Cart <span className="ml-2 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">{cartCount}</span>
@@ -314,15 +317,15 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
   const categoriesData = {
     fruits: [
       { name: "Apple (Variety 1)", price: 50, discount: 10, image: "https://images.everydayhealth.com/images/diet-nutrition/apples-101-about-1440x810.jpg?sfvrsn=f86f2644_5", description: "A crisp red apple rich in antioxidants." },
-      { name: "Banana (Variety 2)", price: 60, discount: 5, image: "https://images.pexels.com/photos/2875814/pexels-photo-2875814.jpeg", description: "A sweet yellow banana full of potassium." },
+      { name: "Banana (Variety 2)", price: 60, discount: 5, image: "https://images.pexels.com/photos/2875814/pexels-photo-2875814.jpeg", description: "A sweet  banana full of potassium." },
       { name: "Orange (Variety 3)", price: 70, discount: 15, image: "https://images.pexels.com/photos/207085/pexels-photo-207085.jpeg", description: "A juicy orange packed with vitamin C." },
       { name: "Mango (Variety 4)", price: 80, discount: 20, image: "https://images.pexels.com/photos/918643/pexels-photo-918643.jpeg", description: "A ripe mango with a tropical flavor." },
-      { name: "Grapes (Variety 5)", price: 90, discount: 10, image: "https://images.pexels.com/photos/23042/pexels-photo.jpg", description: "Sweet green grapes, perfect for snacking." },
+      { name: "Grapes (Variety 5)", price: 90, discount: 10, image: "https://images.pexels.com/photos/23042/pexels-photo.jpg", description: " green grapes, perfect for snacking." },
       { name: "Pineapple (Variety 6)", price: 100, discount: 15, image: "https://images.pexels.com/photos/947879/pexels-photo-947879.jpeg", description: "A tangy pineapple slice, rich in vitamins." },
       { name: "Strawberry (Variety 7)", price: 110, discount: 20, image: "https://images.pexels.com/photos/1258264/pexels-photo-1258264.jpeg", description: "Juicy strawberries with a sweet taste." },
       { name: "Kiwi (Variety 8)", price: 120, discount: 10, image: "https://images.pexels.com/photos/3904800/pexels-photo-3904800.jpeg", description: "A fuzzy kiwi loaded with vitamin C." },
       { name: "Blueberry (Variety 9)", price: 130, discount: 15, image: "https://images.pexels.com/photos/670685/pexels-photo-670685.jpeg", description: "Small blueberries with a burst of flavor." },
-      { name: "Pomegranate (Variety 10)", price: 140, discount: 20, image: "https://images.pexels.com/photos/65256/pomegranate-open-cores-fruit-fruit-logistica-65256.jpeg", description: "A healthy pomegranate with juicy seeds." },
+      { name: "Pomegranate (Variety 10)", price: 140, discount: 20, image: "https://images.pexels.com/photos/65256/pomegranate-open-cores-fruit-fruit-logistica-65256.jpeg", description: "A  pomegranate with juicy seeds." },
       { name: "Pear (Variety 11)", price: 150, discount: 10, image: "https://images.pexels.com/photos/917012/pexels-photo-917012.jpeg", description: "A soft pear with a sweet taste." },
       { name: "Cherry (Variety 12)", price: 160, discount: 15, image: "https://images.pexels.com/photos/162689/cherry-pair-fruits-sweet-162689.jpeg", description: "Bright red cherries, perfect for desserts." },
       { name: "Watermelon (Variety 13)", price: 170, discount: 20, image: "https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-109932142/109932142.jpg", description: "A refreshing watermelon slice." },
@@ -330,7 +333,7 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
       { name: "Guava (Variety 15)", price: 190, discount: 15, image: "https://www.health.com/thmb/XlWTD8TZF5574DVtMEfD-XSj5Lg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Guava-15d1050d22034909bfca038ef1f8aaa2.jpg", description: "A tangy guava with health benefits." },
       { name: "Peach (Variety 16)", price: 200, discount: 20, image: "https://www.truebasics.com/blog/wp-content/uploads/2023/09/peach-benefits-for-skin.jpg", description: "A juicy peach with a sweet aroma." },
       { name: "Plum (Variety 17)", price: 210, discount: 10, image: "https://m.media-amazon.com/images/I/91FS9nT6g2L._UF1000,1000_QL80_.jpg", description: "A purple plum with a tart flavor." },
-      { name: "Apricot (Variety 18)", price: 220, discount: 15, image: "https://satvikk.com/wp-content/uploads/2023/05/Satvikk-apricot1.jpg", description: "A small apricot packed with nutrients." },
+      { name: "Apricot (Variety 18)", price: 220, discount: 15, image: "https://m.media-amazon.com/images/I/61s6Yp9zKqL._UF1000,1000_QL80_.jpg", description: "A small apricot packed with nutrients." },
       { name: "Coconut (Variety 19)", price: 230, discount: 20, image: "https://static1.squarespace.com/static/5c1074accc8fed6a4251da8f/5ca503f60d9297e2f8ae11aa/627a902f1ada5a09d7e0e247/1739917837082/shutterstock_490174816.jpg?format=1500w", description: "A fresh coconut with hydrating water." },
       { name: "Fig (Variety 20)", price: 240, discount: 10, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKMr_upFiKhbevx03Q_W0T3TnqNYoHl4S2vQ&s", description: "A sweet fig with a unique texture." },
       { name: "Lychee (Variety 21)", price: 250, discount: 15, image: "https://saturn.health/cdn/shop/articles/WhatsApp_Image_2022-04-25_at_12.14.29_PM_2.jpg?v=1651050368", description: "A juicy lychee with a floral taste." },
@@ -339,18 +342,18 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
       { name: "Cranberry (Variety 24)", price: 280, discount: 15, image: "https://media.post.rvohealth.io/wp-content/uploads/2020/08/cranberries-101-732x549-thumbnail-732x549.jpg", description: "Tart cranberries good for health." },
       { name: "Dragon Fruit (Variety 27)", price: 310, discount: 15, image: "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/BigBead/what_are_the_benefits_of_dragon_fruit_bigbead/1800ss_getty_rf_dragon_fruit_pitaya.jpg", description: "A vibrant dragon fruit with tiny seeds." },
       { name: "Jackfruit (Variety 28)", price: 320, discount: 20, image: "https://images.everydayhealth.com/images/diet-nutrition/jackfruit-101-1440x810.jpg?w=508", description: "A large jackfruit with a sweet taste." },
-      { name: "Custard Apple (Variety 29)", price: 330, discount: 10, image: "https://www.bbassets.com/media/uploads/p/xxl/10000349_22-fresho-custard-apple.jpg", description: "A creamy custard apple with a unique flavor." },
+      { name: "Custard Apple (Variety 29)", price: 330, discount: 10, image: "https://www.bbassets.com/media/uploads/p/xxl/10000349_22-fresho-custard-apple.jpg", description: "A custard apple with a unique flavor." },
       { name: "Starfruit (Variety 30)", price: 340, discount: 15, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_YEo8BqvDduQqpZja6YR131yAcpKehbVbyA&s", description: "A star-shaped fruit with a tangy taste." },
 
-      { name: "Passion Fruit", price: 350, discount: 10, image: "https://hugaplant.com/cdn/shop/products/bonsaimurraya.png?v=1681443076", description: "Tart and sweet passion fruit for smoothies." },
-    { name: "Persimmon", price: 280, discount: 15, image: "https://www.fitterfly.com/blog/wp-content/uploads/2025/01/Why-Persimmon-Fruit-is-Good-for-Diabetes-Lets-Find-Out-1200x900.webp", description: "Sweet persimmon with a honey-like flavor." },
+      { name: "Passion Fruit", price: 350, discount: 10, image: "https://hugaplant.com/cdn/shop/products/bonsaimurraya.png?v=1681443076", description: "Sweet passion fruit for smoothies." },
+    { name: "Persimmon", price: 280, discount: 15, image: "https://www.fitterfly.com/blog/wp-content/uploads/2025/01/Why-Persimmon-Fruit-is-Good-for-Diabetes-Lets-Find-Out-1200x900.webp", description: " Persimmon with a honey-like flavor." },
     { name: "Rambutan", price: 400, discount: 20, image: "https://royalsplant.com/wp-content/uploads/2023/12/rambutan-fruit.jpeg", description: "Juicy rambutan with a spiky exterior." },
     { name: "Mangosteen", price: 450, discount: 10, image: "https://kolkatameat.com/wp-content/uploads/2020/08/mangosteen-min.png", description: "Creamy mangosteen, queen of fruits." },
     { name: "Durian", price: 500, discount: 15, image: "https://www.greensofkerala.com/wp-content/uploads/2024/02/Everything-You-Should-Know-About-Durian-Fruit.jpg", description: "Strong-scented durian with rich flesh." },
     { name: "Tangerine", price: 200, discount: 5, image: "https://cdn.britannica.com/45/190245-050-CCAFE09B/grapefruits-pomelos.jpg", description: "Easy-peel tangerine with sweet tang." },
     { name: "Blood Orange", price: 250, discount: 10, image: "https://www.melissas.com/cdn/shop/files/4-pounds-image-of-blood-oranges-fruit-1125637178_600x600.jpg?v=1752857743", description: "Vibrant red blood orange, rich in flavor." },
     { name: "Clementine", price: 220, discount: 15, image: "https://cdn.shopify.com/s/files/1/0059/8835/2052/files/pexels-photo-327098_grande.jpeg?v=1551300115", description: "Seedless clementine for snacking." },
-    { name: "Nectarine", price: 270, discount: 20, image: "https://cdn.britannica.com/25/182625-050-327FAC9B/Nectarine-fruits.jpg", description: "Smooth-skinned nectarine with sweet flesh." },
+    { name: "Nectarine", price: 270, discount: 20, image: "https://cdn.britannica.com/25/182625-050-327FAC9B/Nectarine-fruits.jpg", description: "Smooth nectarine with sweet flesh." },
     { name: "Pomelo", price: 300, discount: 10, image: "https://www.stylecraze.com/wp-content/uploads/2013/04/Promising-Health-Benefits_1200px.jpg.webp", description: "Large pomelo with mild citrus taste." },
     { name: "Gooseberry", price: 180, discount: 5, image: "https://rukminim2.flixcart.com/image/704/844/xif0q/plant-seed/g/m/w/16-05-amla-arshiayat-original-imagvfgay7g9xsz6.jpeg?q=90&crop=false", description: "Tart gooseberries for jams." },
     { name: "Kumquat", price: 260, discount: 15, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc40qqOP8grT0wsGChPE942AeUrlGPdwcC7A&s", description: "Bite-sized kumquat with edible skin." },
@@ -365,7 +368,7 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
   
     ],
     vegetables: [
-      { name: "Carrot (KG)", price: 70, discount: 5, image: "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg", description: "Fresh orange carrots rich in beta-carotene." },
+      { name: "Carrot (KG)", price: 70, discount: 5, image: "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg", description: "Orange carrots rich in beta-carotene." },
       { name: "Broccoli (Single)", price: 30, discount: 10, image: "https://images.pexels.com/photos/47347/broccoli-vegetable-food-healthy-47347.jpeg", description: "Green broccoli packed with vitamins." },
       { name: "Spinach (Box)", price: 25, discount: 15, image: "https://images.pexels.com/photos/2325843/pexels-photo-2325843.jpeg", description: "Leafy spinach for healthy meals." },
       { name: "Tomato (KG)", price: 35, discount: 5, image: "https://images.pexels.com/photos/53588/tomatoes-vegetables-food-frisch-53588.jpeg", description: "Juicy red tomatoes for cooking." },
@@ -460,8 +463,8 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
       { name: "Sesame Oil", price: 180, discount: 20, image: "https://ecosureoils.com/wp-content/uploads/2023/05/Black-Sesame-Oil-1.jpg", description: "Aromatic sesame oil for Asian dishes." },
       { name: "Peanut Oil", price: 140, discount: 15, image: "https://wordpresscmsprodstor.blob.core.windows.net/wp-cms/2021/12/19.webp", description: "Rich peanut oil for stir-fry." },
       { name: "Mustard Oil", price: 160, discount: 10, image: "https://cdn.shopify.com/s/files/1/0552/5159/9557/files/iriola-mustard-oil_1024x1024.jpg?v=1680066130", description: "Pungent mustard oil for Indian cooking." },
-      { name: "Avocado Oil", price: 250, discount: 15, image: "https://baskinnature.in/wp-content/uploads/2024/08/avocado-oil-on-rustic-wooden-table-royalty-free-image-1622142886.webp", description: "Premium avocado oil for gourmet dishes." },
-      { name: "Grapeseed Oil", price: 170, discount: 10, image: "https://images-prod.healthline.com/hlcmsresource/images/AN_images/grape-seed-oil-1296x728-feature.jpg", description: "Light grapeseed oil for high-heat cooking." },
+      { name: "Avocado Oil", price: 250, discount: 15, image: "https://baskinnature.in/wp-content/uploads/2024/08/avocado-oil-on-rustic-wooden-table-royalty-free-image-1622142886.webp", description: " Avocado oil for gourmet dishes." },
+      { name: "Grapeseed Oil", price: 170, discount: 10, image: "https://images-prod.healthline.com/hlcmsresource/images/AN_images/grape-seed-oil-1296x728-feature.jpg", description: "Grapeseed oil for high-heat cooking." },
       { name: "Flaxseed Oil", price: 190, discount: 20, image: "https://5.imimg.com/data5/SELLER/Default/2022/8/US/QN/UR/2324264/flaxseed-oil.jpg", description: "Nutritious flaxseed oil for smoothies." },
       { name: "Almond Oil", price: 220, discount: 15, image: "https://media.post.rvohealth.io/wp-content/uploads/2020/08/almond-oil-and-almonds-thumb.jpg", description: "Sweet almond oil for baking." },
       { name: "Walnut Oil", price: 210, discount: 10, image: "https://www.jaindryfruits.com/image/cache/catalog/Berry/w22-800x800-product_popup.jpg", description: "Rich walnut oil for salads." },
@@ -472,7 +475,7 @@ const CategoryDetail = ({ category, onBack, addToCart, setCurrentPage }) => {
       { name: "Palm Oil", price: 120, discount: 10, image: "https://suyashayurveda.com/wp-content/uploads/2022/04/Palm-Oil-Suyash.jpg", description: "Palm oil for versatile cooking." },
       { name: "Hazelnut Oil", price: 230, discount: 15, image: "https://5.imimg.com/data5/SELLER/Default/2024/6/427744567/QO/CU/VN/14546023/organic-hazelnut-oil.jpg", description: "Nutty hazelnut oil for dressings." },
       { name: "Pumpkin Seed Oil", price: 240, discount: 20, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPgBnuGBckloWz3RcRqosc34mpT73SDiRl3w&s", description: "Rich pumpkin seed oil for salads." },
-      { name: "Macadamia Oil", price: 260, discount: 10, image: "https://static.toiimg.com/thumb/msid-94969001,width-400,resizemode-4/94969001.jpg", description: "Premium macadamia oil for gourmet dishes." },
+      { name: "Macadamia Oil", price: 260, discount: 10, image: "https://static.toiimg.com/thumb/msid-94969001,width-400,resizemode-4/94969001.jpg", description: "Macadamia oil for gourmet dishes." },
 
        { name: "Hemp Seed Oil", price: 280, discount: 10, image: "https://baskinnature.in/wp-content/uploads/2024/08/Hemp-Oil00000.-2.webp", description: "Nutty hemp oil for smoothies." },
     { name: "Chia Seed Oil", price: 300, discount: 15, image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPaT2aC4hVDjIiZR917H-7DbitXeNirR1MgA&s", description: "Omega-rich chia oil for health." },
@@ -1596,6 +1599,39 @@ const App = () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isSidebarOpen]);
+
+
+useEffect(() => {
+    const changeLanguage = () => {
+      const translateSelect = document.querySelector('.goog-te-combo');
+      if (translateSelect) {
+        translateSelect.value = language;
+        translateSelect.dispatchEvent(new Event('change'));
+      }
+    };
+
+    const interval = setInterval(() => {
+      if (document.querySelector('.goog-te-combo')) {
+        changeLanguage();
+        clearInterval(interval);
+      }
+    }, 100);
+
+    return () => clearInterval(interval);
+  }, [language]);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   return (
     <div className={`relative min-h-screen ${darkMode ? 'dark-mode' : ''}`} ref={sidebarRef}>

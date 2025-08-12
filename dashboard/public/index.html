@@ -298,6 +298,7 @@
       margin: 2rem 0;
       text-align: center;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) ;
+    
     }
 
     .dark-mode .sales-section {
@@ -311,7 +312,7 @@
       border-radius: 0.5rem;
       margin: 2rem 0;
       text-align: center;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) , 0 0 10px var(--neon-blue);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
 
     .dark-mode .deals-section {
@@ -681,10 +682,56 @@
     }
 
 
+
+   /* Forcefully hide Google Translate UI elements */
+      .goog-te-banner-frame,
+      .goog-te-gadget,
+      .goog-te-banner,
+      #google_translate_element,
+      .skiptranslate,
+      .goog-te-combo,
+      #goog-gt-tt,
+      .goog-te-balloon-frame {
+        display: none !important;
+      }
+      body {
+        top: 0 !important;
+      }
+      .goog-text-highlight {
+        background: none !important;
+        box-shadow: none !important;
+      }
+      /* Prevent any margin or padding from Translate UI */
+      *:not(#root *) {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+      }
+
+
+
+
+
+
+
+
+
   </style>
 </head>
 <body>
   <div id="root"></div>
+
+  <div id="google_translate_element" style="display:none;"></div>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,hi,ar,tr,es,te',
+          autoDisplay: false
+        }, 'google_translate_element');
+      }
+    </script>
+   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
   <script type="text/babel" src="index.js"></script>
 </body>
 </html>
